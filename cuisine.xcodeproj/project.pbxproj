@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE2E81D22765C3500AB4960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E81C22765C3500AB4960 /* AppDelegate.swift */; };
+		FFE2E81F22765C3500AB4960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E81E22765C3500AB4960 /* ViewController.swift */; };
+		FFE2E82222765C3500AB4960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE2E82022765C3500AB4960 /* Main.storyboard */; };
+		FFE2E82422765C3500AB4960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE2E82322765C3500AB4960 /* Assets.xcassets */; };
+		FFE2E82722765C3500AB4960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE2E82522765C3500AB4960 /* LaunchScreen.storyboard */; };
+		FFE2E83222765C3500AB4960 /* cuisineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E83122765C3500AB4960 /* cuisineTests.swift */; };
+		FFE2E83D22765C3500AB4960 /* cuisineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E83C22765C3500AB4960 /* cuisineUITests.swift */; };
+		FFE2E84B22765DD900AB4960 /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E84A22765DD900AB4960 /* teste.swift */; };
+		FFE2E84D2276655500AB4960 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E84C2276655500AB4960 /* DetailViewController.swift */; };
+		FFE2E84F22766BD800AB4960 /* detailcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2E84E22766BD800AB4960 /* detailcell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE2E82E22765C3500AB4960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE2E81122765C3500AB4960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE2E81822765C3500AB4960;
+			remoteInfo = cuisine;
+		};
+		FFE2E83922765C3500AB4960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE2E81122765C3500AB4960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE2E81822765C3500AB4960;
+			remoteInfo = cuisine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFE2E81922765C3500AB4960 /* cuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE2E81C22765C3500AB4960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE2E81E22765C3500AB4960 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFE2E82122765C3500AB4960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE2E82322765C3500AB4960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE2E82622765C3500AB4960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE2E82822765C3500AB4960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE2E82D22765C3500AB4960 /* cuisineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuisineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE2E83122765C3500AB4960 /* cuisineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuisineTests.swift; sourceTree = "<group>"; };
+		FFE2E83322765C3500AB4960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE2E83822765C3500AB4960 /* cuisineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuisineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE2E83C22765C3500AB4960 /* cuisineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuisineUITests.swift; sourceTree = "<group>"; };
+		FFE2E83E22765C3500AB4960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE2E84A22765DD900AB4960 /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
+		FFE2E84C2276655500AB4960 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FFE2E84E22766BD800AB4960 /* detailcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailcell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE2E81622765C3500AB4960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E82A22765C3500AB4960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E83522765C3500AB4960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE2E81022765C3500AB4960 = {
+			isa = PBXGroup;
+			children = (
+				FFE2E81B22765C3500AB4960 /* cuisine */,
+				FFE2E83022765C3500AB4960 /* cuisineTests */,
+				FFE2E83B22765C3500AB4960 /* cuisineUITests */,
+				FFE2E81A22765C3500AB4960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE2E81A22765C3500AB4960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2E81922765C3500AB4960 /* cuisine.app */,
+				FFE2E82D22765C3500AB4960 /* cuisineTests.xctest */,
+				FFE2E83822765C3500AB4960 /* cuisineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE2E81B22765C3500AB4960 /* cuisine */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2E81C22765C3500AB4960 /* AppDelegate.swift */,
+				FFE2E81E22765C3500AB4960 /* ViewController.swift */,
+				FFE2E82022765C3500AB4960 /* Main.storyboard */,
+				FFE2E84C2276655500AB4960 /* DetailViewController.swift */,
+				FFE2E82322765C3500AB4960 /* Assets.xcassets */,
+				FFE2E82522765C3500AB4960 /* LaunchScreen.storyboard */,
+				FFE2E82822765C3500AB4960 /* Info.plist */,
+				FFE2E84A22765DD900AB4960 /* teste.swift */,
+				FFE2E84E22766BD800AB4960 /* detailcell.swift */,
+			);
+			path = cuisine;
+			sourceTree = "<group>";
+		};
+		FFE2E83022765C3500AB4960 /* cuisineTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2E83122765C3500AB4960 /* cuisineTests.swift */,
+				FFE2E83322765C3500AB4960 /* Info.plist */,
+			);
+			path = cuisineTests;
+			sourceTree = "<group>";
+		};
+		FFE2E83B22765C3500AB4960 /* cuisineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2E83C22765C3500AB4960 /* cuisineUITests.swift */,
+				FFE2E83E22765C3500AB4960 /* Info.plist */,
+			);
+			path = cuisineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE2E81822765C3500AB4960 /* cuisine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE2E84122765C3500AB4960 /* Build configuration list for PBXNativeTarget "cuisine" */;
+			buildPhases = (
+				FFE2E81522765C3500AB4960 /* Sources */,
+				FFE2E81622765C3500AB4960 /* Frameworks */,
+				FFE2E81722765C3500AB4960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cuisine;
+			productName = cuisine;
+			productReference = FFE2E81922765C3500AB4960 /* cuisine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE2E82C22765C3500AB4960 /* cuisineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE2E84422765C3500AB4960 /* Build configuration list for PBXNativeTarget "cuisineTests" */;
+			buildPhases = (
+				FFE2E82922765C3500AB4960 /* Sources */,
+				FFE2E82A22765C3500AB4960 /* Frameworks */,
+				FFE2E82B22765C3500AB4960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE2E82F22765C3500AB4960 /* PBXTargetDependency */,
+			);
+			name = cuisineTests;
+			productName = cuisineTests;
+			productReference = FFE2E82D22765C3500AB4960 /* cuisineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFE2E83722765C3500AB4960 /* cuisineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE2E84722765C3500AB4960 /* Build configuration list for PBXNativeTarget "cuisineUITests" */;
+			buildPhases = (
+				FFE2E83422765C3500AB4960 /* Sources */,
+				FFE2E83522765C3500AB4960 /* Frameworks */,
+				FFE2E83622765C3500AB4960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE2E83A22765C3500AB4960 /* PBXTargetDependency */,
+			);
+			name = cuisineUITests;
+			productName = cuisineUITests;
+			productReference = FFE2E83822765C3500AB4960 /* cuisineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE2E81122765C3500AB4960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Achille Lamorthe";
+				TargetAttributes = {
+					FFE2E81822765C3500AB4960 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFE2E82C22765C3500AB4960 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFE2E81822765C3500AB4960;
+					};
+					FFE2E83722765C3500AB4960 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFE2E81822765C3500AB4960;
+					};
+				};
+			};
+			buildConfigurationList = FFE2E81422765C3500AB4960 /* Build configuration list for PBXProject "cuisine" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE2E81022765C3500AB4960;
+			productRefGroup = FFE2E81A22765C3500AB4960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE2E81822765C3500AB4960 /* cuisine */,
+				FFE2E82C22765C3500AB4960 /* cuisineTests */,
+				FFE2E83722765C3500AB4960 /* cuisineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE2E81722765C3500AB4960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE2E82722765C3500AB4960 /* LaunchScreen.storyboard in Resources */,
+				FFE2E82422765C3500AB4960 /* Assets.xcassets in Resources */,
+				FFE2E82222765C3500AB4960 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E82B22765C3500AB4960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E83622765C3500AB4960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE2E81522765C3500AB4960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE2E81F22765C3500AB4960 /* ViewController.swift in Sources */,
+				FFE2E81D22765C3500AB4960 /* AppDelegate.swift in Sources */,
+				FFE2E84B22765DD900AB4960 /* teste.swift in Sources */,
+				FFE2E84F22766BD800AB4960 /* detailcell.swift in Sources */,
+				FFE2E84D2276655500AB4960 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E82922765C3500AB4960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE2E83222765C3500AB4960 /* cuisineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E83422765C3500AB4960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE2E83D22765C3500AB4960 /* cuisineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE2E82F22765C3500AB4960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE2E81822765C3500AB4960 /* cuisine */;
+			targetProxy = FFE2E82E22765C3500AB4960 /* PBXContainerItemProxy */;
+		};
+		FFE2E83A22765C3500AB4960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE2E81822765C3500AB4960 /* cuisine */;
+			targetProxy = FFE2E83922765C3500AB4960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE2E82022765C3500AB4960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE2E82122765C3500AB4960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE2E82522765C3500AB4960 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE2E82622765C3500AB4960 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE2E83F22765C3500AB4960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFE2E84022765C3500AB4960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE2E84222765C3500AB4960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cuisine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.cuisine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE2E84322765C3500AB4960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cuisine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.cuisine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFE2E84522765C3500AB4960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cuisineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.cuisineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuisine.app/cuisine";
+			};
+			name = Debug;
+		};
+		FFE2E84622765C3500AB4960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cuisineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.cuisineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuisine.app/cuisine";
+			};
+			name = Release;
+		};
+		FFE2E84822765C3500AB4960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cuisineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.cuisineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cuisine;
+			};
+			name = Debug;
+		};
+		FFE2E84922765C3500AB4960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cuisineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.cuisineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cuisine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE2E81422765C3500AB4960 /* Build configuration list for PBXProject "cuisine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE2E83F22765C3500AB4960 /* Debug */,
+				FFE2E84022765C3500AB4960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE2E84122765C3500AB4960 /* Build configuration list for PBXNativeTarget "cuisine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE2E84222765C3500AB4960 /* Debug */,
+				FFE2E84322765C3500AB4960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE2E84422765C3500AB4960 /* Build configuration list for PBXNativeTarget "cuisineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE2E84522765C3500AB4960 /* Debug */,
+				FFE2E84622765C3500AB4960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE2E84722765C3500AB4960 /* Build configuration list for PBXNativeTarget "cuisineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE2E84822765C3500AB4960 /* Debug */,
+				FFE2E84922765C3500AB4960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE2E81122765C3500AB4960 /* Project object */;
+}
